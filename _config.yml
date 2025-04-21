@@ -1,19 +1,24 @@
+# _config.yml
 title: Ayush Kumar
 description: AI & ML Enthusiast | Research Intern at IIT Bombay & SRM IST
 url: "https://zmey1.github.io"
+
 author:
   name: Ayush Kumar
   email: 2005.ayushk@gmail.com
   github: Zmey1
   linkedin: ayush-kumar101
 
-# Use Minimal Mistakes theme
-remote_theme: mmistakes/minimal-mistakes
+# Use Minimal Mistakes via remote_theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+# All the plugins we need
 plugins:
-  - jekyll-remote-theme
-  - jekyll-paginate
+  - jekyll-remote-theme    # pulls in the theme
+  - jekyll-include-cache   # unlocks the include_cached tag
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
 
 # Default front‑matter for all pages
 defaults:
