@@ -1,7 +1,26 @@
 title: Ayush Kumar
-#description: [A short description of your site's purpose]
-#show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
-#google_analytics: [Your Google Analytics tracking ID]
-remote_theme: pages-themes/minimal@v0.2.0
+description: AI & ML Enthusiast | Research Intern at IIT Bombay & SRM IST
+url: "https://zmey1.github.io"
+author:
+  name: Ayush Kumar
+  email: 2005.ayushk@gmail.com
+  github: Zmey1
+  linkedin: ayush-kumar101
+
+# Use Minimal Mistakes theme
+remote_theme: mmistakes/minimal-mistakes
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Default front‑matter for all pages
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: true
+      comments: false
