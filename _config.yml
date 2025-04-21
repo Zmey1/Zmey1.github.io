@@ -1,26 +1,20 @@
-# _config.yml
 title: Ayush Kumar
 description: AI & ML Enthusiast | Research Intern at IIT Bombay & SRM IST
 url: "https://zmey1.github.io"
+baseurl: ""
 
-author:
-  name: Ayush Kumar
-  email: 2005.ayushk@gmail.com
-  github: Zmey1
-  linkedin: ayush-kumar101
-
-# Use Minimal Mistakes via remote_theme
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-# All the plugins we need
 plugins:
-  - jekyll-remote-theme    # pulls in the theme
-  - jekyll-include-cache   # unlocks the include_cached tag
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-include-cache
 
-# Default front‑matter for all pages
+# We’re not using separate pages anymore
+header_pages: []
+
 defaults:
   - scope:
       path: ""
@@ -28,26 +22,5 @@ defaults:
     values:
       layout: single
       author_profile: true
-      comments: false
-
-# 1) explicit top‐level navigation links
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: "/about/"
-  - title: "Projects"
-    url: "/projects/"
-  - title: "Research"
-    url: "/research/"
-  - title: "Certifications"
-    url: "/certifications/"
-
-# 2) tell Minimal Mistakes which Markdown files become header nav pages
-header_pages:
-  - index.md
-  - about.md
-  - projects.md
-  - research.md
-  - certifications.md
-
+      sidebar:
+        nav: null
