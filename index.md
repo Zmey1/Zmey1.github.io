@@ -17,3 +17,4 @@ Currently research‑interning at:
 - **SRM IST**: Multimodal Framework for Ocean Deoxygenation (Best Paper Award, AI for the Oceans 2025)
 
 Feel free to explore my work below 👇
+

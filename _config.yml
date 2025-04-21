@@ -29,3 +29,25 @@ defaults:
       layout: single
       author_profile: true
       comments: false
+
+# 1) explicit top‐level navigation links
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Research"
+    url: "/research/"
+  - title: "Certifications"
+    url: "/certifications/"
+
+# 2) tell Minimal Mistakes which Markdown files become header nav pages
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
+  - research.md
+  - certifications.md
+
