@@ -1,26 +1,14 @@
 title: Ayush Kumar
 description: AI & ML Enthusiast | Research Intern at IIT Bombay & SRM IST
-url: "https://zmey1.github.io"
-baseurl: ""
+theme: jekyll-theme-tactile
 
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+# Optional: add social links or footer
+github:
+  is_project_page: false
 
+# For GitHub Pages
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-include-cache
 
-# We’re not using separate pages anymore
-header_pages: []
-
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: single
-      author_profile: true
-      sidebar:
-        nav: null
+# Remove remote_theme – not used for GitHub themes
+# remote_theme: mmistakes/minimal-mistakes
